@@ -17,4 +17,10 @@ where the two smallest frequency nodes are paired until a single node is left. R
 
 -Download or clone my repository
 
-To compress, enter:<span style="color: green"> $ python huffman.py -c example.txt example.huf </span>
+To compress, enter: ```$ python huffman.py -c example.txt example.huf```
+
+
+To decompress enter: ```$ python huffman.py -d example.huf example.txt```
+
+
+This lossless compression program can reduce the size of .txt files by approximately half! :)
